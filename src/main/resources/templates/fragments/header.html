@@ -7,6 +7,9 @@
 <div th:fragment="header">
 <div class="container" align="right">
        <span>Logged user: <span sec:authentication="name"></span>
+       <br/>
+       
+         
        <a th:href="@{/logout}">Sign Out</a>
  </div>
 
